@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Friend App</title>
+				<style>
+					form {
+						display: flex;
+						flex-direction: column;
+						width: 350px;
+					}
+					
+					/*h1[id="title"] {
+						background: red;
+					}*/
+	
+					/*input[name="question-1"]:checked {
+						font-size: 3em;
+					}*/
+				</style>
+    </head>
+    <body>
+        <h1 id="title">Survey</h1>
+
+        <form>
+        	<label for="name">Name:</label>
+        	<input type="text" id="name">
+
+      		<div>
+      			<p>Question 1</p>
+        		<span>One</span>
+        		<input type="radio" name="question-1" value="1">
+        		<span>Two</span>
+        		<input type="radio" name="question-1" value="2">
+        		<span>Three</span>
+        		<input type="radio" name="question-1" value="3">
+      		</div>
+
+      		<div>
+      			<p>Question 2</p>
+        		<span>One</span>
+        		<input type="radio" name="question-2" value="1">
+        		<span>Two</span>
+        		<input type="radio" name="question-2" value="2">
+        		<span>Three</span>
+        		<input type="radio" name="question-2" value="3">
+      		</div>
+
+      		<div>
+      			<p>Question 3</p>
+        		<span>One</span>
+        		<input type="radio" name="question-3" value="1">
+        		<span>Two</span>
+        		<input type="radio" name="question-3" value="2">
+        		<span>Three</span>
+        		<input type="radio" name="question-3" value="3">
+      		</div>
+
+      		<button id="submit">Submit</button>
+      </form>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="js/app.js"></script>
+    </body>
+</html>
+
+
